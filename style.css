@@ -1,0 +1,45 @@
+img { 
+    width: 200px;
+}
+body{
+    text-align: center;
+    font-family: 'Trebuchet MS';
+    background-color: rgba(9, 79, 185, 0.425);
+    color: rgba(255, 0, 255, 0.692);
+   
+}
+
+.food{
+    
+    width:200px;
+    position: relative;
+    animation:slide 2s  linear infinite
+    
+}
+
+@keyframes slide {
+    from {
+        top: 0px;
+    }
+
+    to {
+        top: 2000px;
+    }
+
+}
+
+
+.awesomefood{
+  position:relative;
+  animation:spin 4s linear infinite 
+}
+
+
+@keyframes spin {
+    from{
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
